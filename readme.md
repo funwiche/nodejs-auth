@@ -41,17 +41,17 @@ npm run dev
 
 #### Authentication
 
-- POST ~/auth/register
-- POST ~/auth/login
-- POST ~/auth/forgot
-- PATCH ~/auth/reset
+- POST ~~~/auth/register
+- POST ~~~/auth/login
+- POST ~~~/auth/forgot
+- PATCH ~~/auth/reset
 
 #### Oauth2
 
-- GET ~/oauth2/google
-- GET ~/oauth2/google/redirect
-- GET ~/oauth2/facebook
-- GET ~/oauth2/facebook/redirect
+- GET ~~~~/oauth2/google
+- GET ~~~~/oauth2/google/redirect
+- GET ~~~~/oauth2/facebook
+- GET ~~~~/oauth2/facebook/redirect
 
 #### Users
 
