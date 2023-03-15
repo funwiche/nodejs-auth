@@ -41,24 +41,30 @@ npm run dev
 
 #### Authentication
 
-- POST ~~~/auth/register
-- POST ~~~/auth/login
-- POST ~~~/auth/forgot
-- PATCH ~~/auth/reset
+```bash
+POST   /auth/register
+POST   /auth/login
+POST   /auth/forgot
+PATCH  /auth/reset
+```
 
 #### Oauth2
 
-- GET ~~~~/oauth2/google
-- GET ~~~~/oauth2/google/redirect
-- GET ~~~~/oauth2/facebook
-- GET ~~~~/oauth2/facebook/redirect
+```bash
+GET    /oauth2/google
+GET    /oauth2/google/redirect
+GET    /oauth2/facebook
+GET    /oauth2/facebook/redirect
+```
 
 #### Users
 
 **Note:** All routes takes auth middleware to verify user using token sent in request header
 
-- GET ~~~~/users
-- PATCH ~~/users/password
-- PATCH ~~/users/name
-- PATCH ~~/users/email
-- DELETE ~/users
+```bash
+GET    /users
+PATCH  /users/password
+PATCH  /users/name
+PATCH  /users/email
+DELETE /users
+```
