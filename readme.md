@@ -27,7 +27,7 @@ FACEBOOK_CLIENT_SECRET=  #Facebook CLient Secret
 
 ## Development Server
 
-Start the development server on http://localhost:3000
+Start the development server on http://localhost:3001
 
 ```bash
 # yarn
