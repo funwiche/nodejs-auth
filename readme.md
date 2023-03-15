@@ -41,10 +41,10 @@ npm run dev
 
 #### Authentication
 
-|POST|/auth/register|//Register
-|POST|/auth/login|//Login user
-|POST|/auth/forgot|//Request code to reset password
-|PATCH|/auth/reset|//Reset password
+| POST | /auth/register | //Register |
+| POST | /auth/login | //Login user |
+| POST | /auth/forgot | //Request code to reset password |
+| PATCH | /auth/reset | //Reset password |
 
 #### Oauth2
 
