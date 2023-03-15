@@ -41,12 +41,24 @@ npm run dev
 
 #### Authentication
 
-```html
-- POST /auth/register ##Register <br />- POST /auth/login ##Login user - POST
-/auth/forgot ##Request code to reset password - PATCH /auth/reset ##Reset
-password
-```
+- POST /auth/register
+- POST /auth/login
+- POST /auth/forgot
+- PATCH /auth/reset
 
 #### Oauth2
 
+- get /oauth2/google
+- get /oauth2/google/redirect
+- get /oauth2/facebook
+- get /oauth2/facebook/redirect
+
 #### Users
+
+**Note:** All routes takes auth middleware to verify user using token sent in request header
+
+- GET /users
+- PATCH /users/password
+- PATCH /users/name
+- PATCH /users/email
+- DELETE /users
